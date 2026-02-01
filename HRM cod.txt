@@ -1,5 +1,3 @@
-HTML:
-
 <div id="app"> <div id="hand-container"> <div id="hand-print"> <!-- Фон: Планета Земля (простой контур) --> <svg id="earth-bg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="rgba(150, 150, 150, 0.2)" stroke-width="0.5"> <circle cx="12" cy="12" r="10" /> <path d="M12 2a10 10 0 0 0 0 20a10 10 0 0 0 0-20zM2.1 12.1a10.03 10.03 0 0 0 19.8 0"></path> </svg>
   <!-- Символ Прав Человека (Рука-Птица) с использованием SVG) -->
   <svg id="human-rights-logo" width="150" height="150" viewBox="0 0 24 24" fill="#007BFF" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
@@ -10,8 +8,6 @@ HTML:
 </div>
 <p id="instruction"></p> <!-- Текст будет добавлен через JS -->
 </div> <div id="flash"></div> <div id="manifesto"> <div class="content"> <p class="line" id="line1"></p> <p class="line" id="line2"></p> <p class="line" id="line3"></p> <div class="logo">🕊️</div> <button id="reset-btn"></button> </div> </div> </div>
-
-CSS5:
 
 body, html { margin: 0; padding: 0; background: #000; color: #fff; height: 100%; overflow: hidden; font-family: 'Segoe UI', sans-serif; }
 #app { display: flex; align-items: center; justify-content: center; height: 100vh; text-align: center; }
@@ -82,8 +78,6 @@ body, html { margin: 0; padding: 0; background: #000; color: #fff; height: 100%;
 
 /* Класс для запуска анимации через JS */
 .visible { opacity: 1 !important; transform: translateY(0) !important; }
-
-JS:
 const translations = {
     'ru': {
         instruction: 'Приложи палец и держи',
@@ -156,4 +150,5 @@ let timer;
 
 resetBtn.addEventListener('click', () => {
   window.location.href = 'https://www.humanrightslogo.net';
+
 });
