@@ -69,5 +69,5 @@ let timer;
 }));
 
 resetBtn.addEventListener('click', () => {
-  window.location.href = 'https://www.ohchr.org';
+  window.location.href = 'https://www.humanrightslogo.net';
 });
