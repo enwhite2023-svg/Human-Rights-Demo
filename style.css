@@ -6,7 +6,7 @@ body, html { margin: 0; padding: 0; background: #000; color: #fff; height: 100%;
   width: 200px; /* Ширина по размеру Земли */
   height: 200px; /* Высота по размеру Земли */
 } 
-
+ 
 /* Стиль для фона Земли */
 #earth-bg {
   position: absolute;
