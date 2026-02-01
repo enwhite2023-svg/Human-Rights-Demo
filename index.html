@@ -1,10 +1,29 @@
-<div id="app"> <div id="hand-container"> <div id="hand-print"> <!-- Фон: Планета Земля (простой контур) --> <svg id="earth-bg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="rgba(150, 150, 150, 0.2)" stroke-width="0.5"> <circle cx="12" cy="12" r="10" /> <path d="M12 2a10 10 0 0 0 0 20a10 10 0 0 0 0-20zM2.1 12.1a10.03 10.03 0 0 0 19.8 0"></path> </svg>
-  <!-- Символ Прав Человека (Рука-Птица) с использованием SVG) -->
-  <svg id="human-rights-logo" width="150" height="150" viewBox="0 0 24 24" fill="#007BFF" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path>
-    <path d="M12 13V7"></path>
-    <path d="M15 10l-3 3-3-3"></path>
-  </svg>
+<div id="app">
+  <div id="hand-container">
+    <div id="hand-print">
+      <!-- Фон: Планета Земля (простой контур) -->
+      <svg id="earth-bg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="rgba(150, 150, 150, 0.2)" stroke-width="0.5">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 2a10 10 0 0 0 0 20a10 10 0 0 0 0-20zM2.1 12.1a10.03 10.03 0 0 0 19.8 0"></path>
+      </svg>
+      
+      <!-- Символ Прав Человека (Рука-Птица) с использованием SVG) -->
+      <svg id="human-rights-logo" width="150" height="150" viewBox="0 0 24 24" fill="#007BFF" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path>
+        <path d="M12 13V7"></path>
+        <path d="M15 10l-3 3-3-3"></path>
+      </svg>
+    </div>
+    <p id="instruction"></p> <!-- Текст будет добавлен через JS -->
+  </div>
+  <div id="flash"></div>
+  <div id="manifesto">
+    <div class="content">
+      <p class="line" id="line1"></p>
+      <p class="line" id="line2"></p>
+      <p class="line" id="line3"></p>
+      <div class="logo">🕊️</div>
+      <button id="reset-btn"></button>
+    </div>
+  </div>
 </div>
-<p id="instruction"></p> <!-- Текст будет добавлен через JS -->
-</div> <div id="flash"></div> <div id="manifesto"> <div class="content"> <p class="line" id="line1"></p> <p class="line" id="line2"></p> <p class="line" id="line3"></p> <div class="logo">🕊️</div> <button id="reset-btn"></button> </div> </div> </div>
